@@ -1,3 +1,6 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +13,7 @@ header{
 }
 
 .conteiner{
-    max-height: 1080;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -111,4 +114,58 @@ nav{
     color: #8c8c8c;
     font-weight: bold;
     letter-spacing: 1.5px;
+}
+
+.about-text{
+    border-left:1px solid white;
+    padding: 8px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 13px;
+}
+
+.about-subtitle-text{
+    color: #d1d1d1;
+    max-width: 240px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.audio-block{
+    background-color: #242424;
+    display: flex;
+    margin-top: 60px;
+    width: 540px;
+}
+
+.audio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    padding: 0 30px;
+}
+
+.audio-detail{
+    flex: 1;
+}
+
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.control i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febe02;
+    color: #1a1a1a
 }
